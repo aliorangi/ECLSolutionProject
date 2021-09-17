@@ -13,6 +13,8 @@ namespace ECLSolutionProject
     {
         public static void Main(string[] args)
         {
+
+            // call host build
             CreateHostBuilder(args).Build().Run();
         }
 
